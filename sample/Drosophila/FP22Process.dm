@@ -1,19 +1,19 @@
-CLASSNAME = 'FP14Reactor'
-BASECLASS = 'FluxReactor'
+CLASSNAME = 'FP22Process'
+BASECLASS = 'FluxProcess'
 PROPERTIES = [('Real','V4',0.0),('Real','K4',0.0)]
 
 PROTECTED_AUX = '''
-  Reactant C0;
+  Connection C0;
 '''
 
 defineMethod( 'initialize', '''
-  C0 = getReactant( "C0" );
+  C0 = getConnection( "C0" );
 ''' )
 
 defineMethod( 'react', '''
-  Real E( C0.getSubstance()->getConcentration() );
+  Real E( C0.getVariable()->getConcentration() );
 
-  Real V( V4 * E );
+  Real V( -1 * V4 * E );
   V /= K4 + E;
   V *= 1E-018 * N_A;
 

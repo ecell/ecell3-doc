@@ -1,17 +1,17 @@
-CLASSNAME = 'FM1Reactor'
-BASECLASS = 'FluxReactor'
+CLASSNAME = 'FM1Process'
+BASECLASS = 'FluxProcess'
 PROPERTIES = [('Real','vs',0.0), ('Real','KI',0.0)]
 
 PROTECTED_AUX = '''
-  Reactant C0;
+  Connection C0;
 '''
 
 defineMethod( 'initialize', '''
-  C0 = getReactant( "C0" );
+  C0 = getConnection( "C0" );
 ''' )
 
 defineMethod( 'react', '''
-  Real E( C0.getSubstance()->getConcentration() );
+  Real E( C0.getVariable()->getConcentration() );
   Real V( vs * KI );
   V /= KI + (E * E * E);
   V *= 1E-018 * N_A;
