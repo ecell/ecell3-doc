@@ -162,8 +162,7 @@ Loading a model
 Let's try this in the interactive mode of the ECELL3-SESSION command. On
 the prompt of the command, load an EML file by using loadModel() method.
 ``ecell3-session>>> ``\ ``loadModel( 'simple.eml' )`` Then the prompt
-changes from ``ecell3-session>>> `` to ``,
-    t=>>> `` ``simple.eml, t=0>>> ``
+changes from ``ecell3-session>>> `` to ``, t=>>> `` ``simple.eml, t=0>>> ``
 
 Running the simulation
 ~~~~~~~~~~~~~~~~~~~~~~
