@@ -376,8 +376,7 @@ have their property values of several different types. For example,
 ``S`` is an integer number ``10000`` (and this is automatically
 converted to a real number ``10000.0`` when the VARIABLE gets it because
 the type of the Value property is REAL). Name property of the PROCESS
-``E`` is the quoted string ``"A
-      mass action from S to P"``, and 'k' of it is the real number
+``E`` is the quoted string ``"A mass action from S to P"``, and 'k' of it is the real number
 ``1.0``. VariableReferenceList property of ``E`` is the list of two
 lists, which contain strings (such as ``S0``), and numbers (such as
 ``-1``). The list contain relative FULLIDs (such as ``:.:S``) without
