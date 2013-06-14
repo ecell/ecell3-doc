@@ -220,8 +220,7 @@ MassActionFluxProcess is the continuous differential equation conterpart
 of the discrete-event GillespieProcess. Unlike GillespieProcess,
 MassActionFluxProcess does not have limitation in the order of the
 reaction mechanism. For example, it can handle the reaction like this:
-``S0 +
-         S1 + 2 S2 --> P0 + P1``.
+``S0 + S1 + 2 S2 --> P0 + P1``.
 
 Converting the model
 --------------------
