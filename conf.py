@@ -9,10 +9,10 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 project = 'ecell3'
-copyright = '2013, ecell project'
+copyright = '2013, E-Cell project'
 
-version = '3.2.2'
-release = '3.2.2'
+version = '3.2.3pre2'
+release = '3.2.3pre2'
 
 exclude_trees = ['_build']
 

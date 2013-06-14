@@ -1,5 +1,5 @@
-ecell3 document
-=================================================
+E-Cell Simulation Environment Version 3.2.3pre2 User’s Manual
+==============================================================================
 
 .. toctree::
    :maxdepth: 2
