@@ -8,8 +8,8 @@ source_suffix = '.rst'
 
 master_doc = 'index'
 
-project = u'ecell3'
-copyright = u'2013, ecell project'
+project = 'ecell3'
+copyright = '2013, ecell project'
 
 version = '3.2.2'
 release = '3.2.2'
