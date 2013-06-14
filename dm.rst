@@ -659,8 +659,8 @@ Inheriting properties of base class
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In most cases you may also want to use properties of base class. To
-inherit the baseclass properties, use ``INHERIT_PROPERTIES( 
-    )`` macro. This macro is usually placed before any property
+inherit the baseclass properties, use ``INHERIT_PROPERTIES( )``
+macro. This macro is usually placed before any property
 definition macros (such as ``PROPERTY_SET_GET()``).
 
 ::
