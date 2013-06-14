@@ -10,6 +10,10 @@ toc:
 .. toctree::
    :maxdepth: 2
 
+   cpp-basics
+   dm
+   ecddatafile-api
+   empy-manual
 
 index
 ==================
