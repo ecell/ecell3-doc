@@ -1533,8 +1533,7 @@ Algebraic equations in ECELL has the following form:
 where t is the time and x is a vector of variable references.
 
 The DAE solver system of ECELL uses Activity property of PROCESS objects
-to represent the value of the algebraic function ``g(
-         t, x )``. An algebraic PROCESS must *not* change values of
+to represent the value of the algebraic function ``g( t, x )``. An algebraic PROCESS must *not* change values of
 VARIABLE objects explicitly. The DAE STEPPER does this job of finding a
 point where the equation ``g()`` holds.
 
