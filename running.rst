@@ -7,8 +7,9 @@ items.
 What types of files are needed to run the simulator.
 How to prepare the files needed to run the simulator.
 How to run the simulation with APP.
+
 Preparing Simulation
-====================
+---------------------
 
 To start the simulation, you need to have these types of files:
 
@@ -22,7 +23,7 @@ To start the simulation, you need to have these types of files:
    the simulation session.
 
 Converting EM to EML
---------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 Simulation models for ECELL is often written in EM format. To convert EM
 (.em) files to EML (.eml) files, type the following command.
@@ -46,7 +47,7 @@ You can obtain the full description of the command line options giving
             -o or --outfile=:  Specify output file name.  '-' means stdout.
 
 Compiling C++ Dynamic Modules
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You might have some Dynamic Modules (or DM in short) specifically made
 for the simulation model in the form of C++ source code. If that is the
@@ -88,12 +89,12 @@ dmcompile path. -v or --verbose Be verbose. -h or --help Print this
 message.
 
 Starting APP
-============
+-------------
 
 You can start APP either in scripting mode and GUI mode.
 
 GUI mode
---------
+~~~~~~~~~~
 
 To start APP in GUI mode, type the following command.
 
@@ -105,7 +106,7 @@ This will invoke an instance of the simulator with Osogo Session Manager
 attached as a GUI frontend.
 
 Scripting mode
---------------
+~~~~~~~~~~~~~~~~
 
 To start APP in scripting mode, type the following command:
 
@@ -122,7 +123,7 @@ mode.
 See chapter 5 for the scripting feature.
 
 DM search path and ``ECELL3_DM_PATH`` environment variable
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If your model makes use of non-standard DMs that you had to build using
 ``ecell3-dmc``, then you need to specify the directory where the DMs are
