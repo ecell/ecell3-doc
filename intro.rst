@@ -2,13 +2,13 @@ Introduction
 ============
 
 What is ECELL
-=============
+--------------
 
 The APP is a software environment for simulation of various cellular
 phenomena.
 
 Organization of This Manual
-===========================
+------------------------------
 
 This manual has the following chapters.
 
