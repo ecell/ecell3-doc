@@ -1,5 +1,5 @@
 ======
-legal
+Legal
 ======
 
 Permission is granted to copy, distribute and/or modify this document
@@ -49,7 +49,7 @@ UNDERSTANDING THAT:
    VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED
    OF THE POSSIBILITY OF SUCH DAMAGES.
 
-feedback
+Feedback
 =========
 
 To report a bug or make a suggestion regarding the E-Cell Simulation Environment application or this manual, send an email to
