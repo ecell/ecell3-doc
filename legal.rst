@@ -1,3 +1,7 @@
+======
+legal
+======
+
 Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License (GFDL), Version
 1.1 or any later version published by the Free Software Foundation with
@@ -45,4 +49,8 @@ UNDERSTANDING THAT:
    VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED
    OF THE POSSIBILITY OF SUCH DAMAGES.
 
+feedback
+=========
 
+To report a bug or make a suggestion regarding the E-Cell Simulation Environment application or this manual, send an email to
+<shafi at e-cell.org>
