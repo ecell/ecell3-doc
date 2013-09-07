@@ -7,6 +7,7 @@ By reading this chapter, you can get information about:
 How an ECELL's simulation model is organized.
 How to create a simulation model.
 How to write a model file in EM format.
+
 Objects In The Model
 ====================
 
