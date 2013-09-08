@@ -3,7 +3,7 @@ E-Cell Simulation Environment Version 3.2.3pre2 User’s Manual
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    legal
    intro
