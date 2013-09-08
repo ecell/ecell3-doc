@@ -12,6 +12,7 @@ E-Cell Simulation Environment Version 3.2.3pre2 User’s Manual
    modelingtutorial
    scripting
    dm
+   stddmlib
    cpp-basics
    ecddatafile-api
    empy-manual
@@ -20,7 +21,6 @@ E-Cell Simulation Environment Version 3.2.3pre2 User’s Manual
    objectstubs-api
    python-basics
    session-class-api
-   stddmlib
 
 index
 ==================
