@@ -13,8 +13,8 @@ E-Cell Simulation Environment Version 3.2.3pre2 User’s Manual
    scripting
    dm
    stddmlib
-   empy-manual
    inside-ecell
+   empy-manual
 
 
 index
